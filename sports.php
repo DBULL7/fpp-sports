@@ -1,9 +1,10 @@
 <?php
 $skipJSsettings = true;
+// https://github.com/FalconChristmas/fpp/blob/master/www/common.php
 include_once "/opt/fpp/www/common.php";
 include_once 'functions.inc.php';
 $pluginName = basename(dirname(__FILE__));
-$pluginPath = $settings['pluginDirectory']."/".$pluginName."/"; 
+//$pluginPath = $settings['pluginDirectory']."/".$pluginName."/";
 $logFile = $settings['logDirectory']."/".$pluginName.".log";
 $pluginConfigFile = $settings['configDirectory'] . "/plugin." .$pluginName;
 $pluginSettings = parse_ini_file($pluginConfigFile);
