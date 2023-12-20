@@ -8,7 +8,7 @@ $logFile = $settings['logDirectory']."/".$pluginName.".log";
 $pluginConfigFile = $settings['configDirectory'] . "/plugin." .$pluginName;
 $pluginSettings = parse_ini_file($pluginConfigFile);
 
-logEntry("Starting NFL Plugin");
+logEntry("Starting Sports Plugin");
 
 //initialize config file
 foreach (array('nfl', 'ncaa', 'nhl', 'mlb') as $league) {

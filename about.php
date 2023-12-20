@@ -6,9 +6,9 @@
           <div id='credits'>
             <b>Template Plugin Developed By:</b><br />
 		        <br />
-            Ben Kools (koolsb)<br />
+            Devon Bull (DBULL7)<br />
 		        <br />
-            <a href='https://github.com/koolsb/fpp-nfl'>Git Repository</a><br>
+            <a href='https://github.com/DBULL7/fpp-sports'>Git Repository</a><br>
 		        <br />
           </div>
         </div>

@@ -1,11 +1,11 @@
 {
-	"repoName": "fpp-nfl",
+	"repoName": "fpp-sports",
 	"name": "Pro Sports Scoring Plugin",
-	"author": "Ben Kools (koolsb)",
+	"author": "Devon Bull",
 	"description": "Automatically play a celebratory sequence when your NFL, NHL, MLB or NCAA Football team scores or wins!",
-	"homeURL": "https://github.com/koolsb/fpp-nfl",
-	"srcURL": "https://github.com/koolsb/fpp-nfl.git",
-	"bugURL": "https://github.com/koolsb/fpp-nfl/issues",
+	"homeURL": "https://github.com/DBULL7/fpp-sports",
+	"srcURL": "https://github.com/DBULL7/fpp-sports.git",
+	"bugURL": "https://github.com/DBULL7/fpp-sports/issues",
 	"allowUpdates": 1,
 	"versions": [
 		{

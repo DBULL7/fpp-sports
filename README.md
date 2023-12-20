@@ -1,4 +1,4 @@
-# fpp-nfl
+# fpp-sports
 
 ## Pro Sports Scoring Plugin
 

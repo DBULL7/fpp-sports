@@ -201,12 +201,12 @@ foreach ($pluginSettings as $key => $value) {
   <?php foreach ($leagues as $league) { ?>
   function update<?=strtoupper($league)?>Logo(){
     $.ajax({ 
-      url: 'plugin.php?_menu=status&plugin=fpp-nfl&nopage=1&page=functions.inc.php',
+      url: 'plugin.php?_menu=status&plugin=fpp-sports&nopage=1&page=functions.inc.php',
           data: {action: 'update<?=strtoupper($league)?>Team'},
           type: 'post',
           success: function(output) {
               $.ajax({ 
-        url: 'api/plugin/fpp-nfl/settings/<?=$league?>TeamLogo',       
+        url: 'api/plugin/fpp-sports/settings/<?=$league?>TeamLogo',
         type: 'get',
         success: function(data) {		
           var logo= data.<?=$league?>TeamLogo;
@@ -220,7 +220,7 @@ foreach ($pluginSettings as $key => $value) {
   <?php } ?>
   function setEnabledStatus(){
 	  $.ajax({ 
-		  url: 'plugin.php?_menu=status&plugin=fpp-nfl&nopage=1&page=nfl.php',
+		  url: 'plugin.php?_menu=status&plugin=fpp-sports&nopage=1&page=sports.php',
 		  type: 'post',
         success: function(result) {
 			    console.log (result);
